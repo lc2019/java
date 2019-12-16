@@ -1,4 +1,7 @@
 package day02;
+/*
+while，先判断在执行
+ */
 
 public class while_p20 {
     public static void main(String args[]){
