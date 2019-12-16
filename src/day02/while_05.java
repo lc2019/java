@@ -3,7 +3,7 @@ package day02;
 while，先判断在执行
  */
 
-public class while_p20 {
+public class while_05 {
     public static void main(String args[]){
         //1.计算1-100的和
         int num = 0;
