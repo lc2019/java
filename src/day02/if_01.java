@@ -1,7 +1,31 @@
 package day02;
-//输入
-import java.util.Scanner;
+/**
+ * @author:lcc
+ * time:23点57分 2019/12/19
+ * if选择结构
+ * if(布尔表达式){
+ *     代码块
+ * }
+ *if lese
+ *   if(布尔表达式){
+ *      代码块1
+ *   }else{
+ *      代码块2
+ *  }
+ *
+ *  多重if-有一个条件为true直接终止
+ *   *   if(布尔表达式){
+ *  *      代码块1
+ *  *   }else if{
+ *  *      代码块2
+ *  *  }else if{
+ *
+ *     }else{
+ *
+ *     }
+ */
 
+import java.util.Scanner;
 //65-90 ascii
 public class if_01 {
     public static void main(String[] args) {
