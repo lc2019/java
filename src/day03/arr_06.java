@@ -23,5 +23,6 @@ public class arr_06 {
                 System.out.println(x[i]);
         }
 
+
     }
 }
