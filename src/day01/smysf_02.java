@@ -6,7 +6,7 @@ import java.util.Scanner;
 @author:lc
 三目运算符
  */
-public class smysf01 {
+public class smysf_02 {
     public static void main(String[] args) {
         System.out.println("score: ");
         Scanner input =  new Scanner(System.in);
