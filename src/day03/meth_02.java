@@ -17,7 +17,7 @@ public class meth_02 {
 
     public static void printStar(int line){
         for (int i = 0; i <line ; i++) {
-            for (int j = 0; j < i ; j++) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();

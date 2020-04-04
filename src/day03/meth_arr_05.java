@@ -7,7 +7,7 @@ package day03;
 public class meth_arr_05 {
     public static void main(String args[]){
         //1数组声明
-        int[] nums =  new  int[5];
+        int[] nums = new int[5];
         for (int i = 0; i <5 ; i++) {
             nums[i] = i;
             System.out.println(nums[i]);

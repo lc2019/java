@@ -28,7 +28,11 @@ public class if_03 {
 //        sc.next() string
 //        sc.nextLine().charAt() char
         int score = sc.nextInt(); //获取int
-        if (score >= 90) {
+        if (score < 0 || score > 100) {
+            System.out.println("shuru cuowu");
+            //程序退出
+            System.exit(0);
+        } else if (score >= 90 && score <= 100) {
             System.out.println("xiuer");
         } else if (score >= 80 && score < 90) {
             System.out.println("good");
