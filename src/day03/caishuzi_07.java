@@ -3,7 +3,7 @@ package day03;
 import java.util.Random;
 import java.util.Scanner;
 
-public class caizi_game_07 {
+public class caishuzi_07 {
     public static void main(String args[]){
 //        int[] nums = {30,17,6,2,22,27};
 
