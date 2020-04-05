@@ -1,37 +1,37 @@
-package day05;
+package day03;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class test {
+public class guess {
     public static void main(String[] args) {
+        //定义1个数组长度为5
         int[] nums = new int[5];
-
-        Scanner input = new Scanner(System.in);
-
+        //生成1个随机数的类的实例化
         Random r = new Random();
-
         int len = nums.length;
         for (int i = 0; i < len; i++) {
             nums[i] = r.nextInt(50);
         }
-
+        //获取键盘输入
+        Scanner input = new Scanner(System.in);
         System.out.println("enter a num");
-        int num = input.nextInt();
 
-        boolean flag = false;
+        //获取随机数
+        int num =  input.nextInt();
 
+        Boolean flag = false;
         for (int x : nums) {
             if (x == num) {
                 flag = true;
                 break;
             }
         }
-
         if (flag) {
-            System.out.println("r");
-        } else {
-            System.out.println("w");
+            System.out.println("right");
+        }else {
+            System.out.println("Wrong");
         }
     }
 }
+

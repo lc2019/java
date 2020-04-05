@@ -1,4 +1,4 @@
-package day05;
+package day03;
 
 /**
  * 等腰三角形
