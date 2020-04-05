@@ -1,5 +1,6 @@
 package day05;
 
+//类的混合使用
 public class Pc {
     //直接使用已经声明的类
     Screen screen;
