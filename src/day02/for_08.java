@@ -9,15 +9,15 @@ public class for_08 {
         //质数
 //        int count =0;
         for (int i = 2; i <= 100; i++) {
-            boolean Flag = true;
+            boolean flag = true;
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) { //是否有因数
-                    Flag = false;
+                    flag = false;
                     break;//如果有因数直接跳出循环
 //                    count++;
                 }
             }
-            if (Flag) { //if(count ==2){}
+            if (flag) { //if(count ==2){}
                 System.out.println(i);
             }
         }
