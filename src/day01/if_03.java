@@ -2,12 +2,6 @@ package day01;
 
 import java.util.Scanner;
 
-/*
-@author:lc
-if(boolæ¡ä»¶){
-   code
-}
- */
 public class if_03 {
     public static void main(String[] args) {
         int money = 50;
@@ -16,21 +10,21 @@ public class if_03 {
         }
         System.out.println("over");
 
-        //if else ç»“æ„
+        //if else 
         if (money > 10) {
             System.out.println("youqian");
         } else {
             System.out.println("meiqian");
         }
 
-        Scanner sc = new Scanner(System.in); //åˆ›å»ºç±»
-        System.out.println("è¯·è¾“å…¥ä½ çš„åˆ†æ•°ï¼š");
+        Scanner sc = new Scanner(System.in); //»ñÈ¡¼üÅÌÊäÈë
+        System.out.println("ÇëÊäÈëÄÚÈİ");
 //        sc.next() string
 //        sc.nextLine().charAt() char
-        int score = sc.nextInt(); //è·å–int
+        int score = sc.nextInt(); //int
         if (score < 0 || score > 100) {
             System.out.println("shuru cuowu");
-            //ç¨‹åºé€€å‡º
+            //ÍË³ö
             System.exit(0);
         } else if (score >= 90 && score <= 100) {
             System.out.println("xiuer");
