@@ -15,18 +15,19 @@ public class test {
         for (int i = 0; i < len; i++) {
             nums[i] = r.nextInt(50);
         }
-
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
         System.out.println("enter a num");
         int num = input.nextInt();
-
         boolean flag = false;
-
         for (int x : nums) {
             if (x == num) {
                 flag = true;
                 break;
             }
         }
+
 
         if (flag) {
             System.out.println("r");
