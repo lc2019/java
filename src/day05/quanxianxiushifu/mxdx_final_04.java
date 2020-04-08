@@ -1,4 +1,4 @@
-package day05;
+package day05.quanxianxiushifu;
 
 //final关键字
 class testType {

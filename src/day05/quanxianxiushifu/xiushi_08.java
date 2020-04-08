@@ -1,4 +1,4 @@
-package day05;
+package day05.quanxianxiushifu;
 //static
 
 class Per {

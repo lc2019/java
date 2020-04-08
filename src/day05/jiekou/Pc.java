@@ -1,4 +1,4 @@
-package day05;
+package day05.jiekou;
 
 //类的混合使用
 public class Pc {

@@ -1,4 +1,4 @@
-package day05;
+package day05.jiekou;
 
 
 public class Keyboard {

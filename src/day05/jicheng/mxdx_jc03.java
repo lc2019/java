@@ -1,4 +1,4 @@
-package day05;
+package day05.jicheng;
 
 //继承与方法重写，以及abs的使用
 abstract class Father {
@@ -74,7 +74,6 @@ class Son extends Father {
     }
 
     //重写父类的方法
-
     @Override
     public double getSalary() {
         System.out.println("kaixin");

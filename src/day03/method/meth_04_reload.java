@@ -16,7 +16,7 @@ public class meth_04_reload {
         return a + b + c;
     }
 
-    //必须类型不一致或参数不一致
+    //重载 必须类型不一致或参数不一致
     public static double add(float a, int b) {
         return a + b;
     }

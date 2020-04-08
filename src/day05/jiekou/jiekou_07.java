@@ -1,4 +1,4 @@
-package day05;
+package day05.jiekou;
 
 //接口
 interface Usb {
