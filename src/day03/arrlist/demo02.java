@@ -22,16 +22,11 @@ public class demo02 {
         addStu(a1);
 
         //遍历集合对象
-        for (int i = 0; i < a1.size(); i++) {
+        for (Stu2 s : a1) {
             //集合对象
-            Stu2 s = a1.get(i);
             System.out.println(s.getName() + "," + s.getAge());
-
         }
-
-
     }
-
     /**
      * 添加学生的方法
      *
