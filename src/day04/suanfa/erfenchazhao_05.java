@@ -1,4 +1,4 @@
-package day04;
+package day04.suanfa;
 
 public class erfenchazhao_05 {
     public static void main(String[] args) {

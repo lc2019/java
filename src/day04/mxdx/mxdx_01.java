@@ -1,4 +1,4 @@
-package day04;
+package day04.mxdx;
 
 public class mxdx_01 {
     private int id;

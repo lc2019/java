@@ -1,4 +1,4 @@
-package day04;
+package day04.suanfa;
 
 /*
 查找过程

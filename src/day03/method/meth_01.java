@@ -1,4 +1,4 @@
-package day03;
+package day03.method;
 
 public class meth_01 {
     //程序入口

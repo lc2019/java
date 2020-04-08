@@ -1,4 +1,4 @@
-package day04;
+package day04.mxdx;
 
 //定义类
 class Person {
