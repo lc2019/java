@@ -1,4 +1,4 @@
-package day04;
+package day04.mxdx;
 
 public class lx01 {
     public static void main(String[] args) {

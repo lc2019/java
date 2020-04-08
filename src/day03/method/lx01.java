@@ -1,6 +1,4 @@
-package day03;
-
-import java.util.Random;
+package day03.method;
 
 public class lx01 {
     public static void main(String[] args) {
