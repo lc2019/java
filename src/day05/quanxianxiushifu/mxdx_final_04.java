@@ -1,6 +1,7 @@
 package day05.quanxianxiushifu;
 
 //final关键字
+//修饰的引用类型 地址不能变
 class testType {
     //final修饰的变量必须初始化
     final int Num = 10;

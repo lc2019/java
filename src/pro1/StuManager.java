@@ -12,6 +12,7 @@ public class StuManager {
      * 2.scanner来获取用户输入
      * 3.swtich来完成操作
      * 4.菜单循环
+     * 5.退出
      *
      * @param args
      */
@@ -31,7 +32,6 @@ public class StuManager {
             //2.Scanner来实现键盘输入
             Scanner sc = new Scanner(System.in);
             String line = sc.nextLine();
-
             switch (line) {
                 case "1":
 //                    System.out.println("添加学生");
@@ -59,6 +59,8 @@ public class StuManager {
     /**
      * 添加学生的方法，把学生添加到集合
      * 是一个集合，把用户输入给学生对象
+     *
+     * @param arr
      */
     public static void addStu(ArrayList<Student> arr) {
         //用户输入构成学生的对象
@@ -115,6 +117,11 @@ public class StuManager {
         System.out.println("删除学生成功");
     }
 
+    /**
+     * 修改学生的方法
+     *
+     * @param arr
+     */
     public static void modStu(ArrayList<Student> arr) {
         //用户输入构成学生的对象
         Student s = userInput();
