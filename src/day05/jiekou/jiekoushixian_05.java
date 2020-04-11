@@ -32,7 +32,7 @@ class typeA implements A, B {
 }
 
 
-public class jiekou_05 {
+public class jiekoushixian_05 {
     public static void main(String[] args) {
         //实现
         typeA typeA = new typeA();

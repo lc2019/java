@@ -6,14 +6,6 @@ package day05.duotai;
 方法看右边-子类的方法-因为有重写
  */
 
-class Animal {
-    public int age = 2;
-
-    public void eat() {
-        System.out.println("动物吃东西");
-    }
-}
-
 
 class Cat extends Animal {
     public int age = 1;
@@ -39,7 +31,8 @@ class Dog extends Animal {
 
 public class duotai_06 {
     public static void main(String[] args) {
-        Animal animal = new Animal();
+
+        //多态
         Animal c1 = new Cat();//向上转型
         System.out.println(c1.age); //2
         c1.eat(); //猫吃鱼
@@ -47,9 +40,13 @@ public class duotai_06 {
         Dog dog = new Dog();
 
 
+        //抽象类不能直接实例化，多态通过子类来创建
         Animaleat anie = new Animaleat();
         anie.useAnimal(c1);
         anie.useAnimal(dog);
+
+        Animal c2 = anie.getAnimal();
+        c2.eat();
 
         //向下转型 父类引用子类
         Cat c = (Cat) c1;

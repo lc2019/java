@@ -1,6 +1,15 @@
-package day06;
+package day05.yichang;
 
 //自定义异常
+
+/**
+ * public Throwable(String message) {
+ * detailMessage = message;
+ * }
+ * public String getMessage() {
+ * return detailMessage;
+ * }
+ */
 class StaticException extends Exception {
     //空的构造
     public StaticException() {
@@ -17,9 +26,10 @@ class StaticException extends Exception {
 public class yichang_01 {
     public static void main(String[] args) throws StaticException {
         //异常类
-        Throwable throwable = new Throwable("有异常");
-
-        System.out.println(throwable.getMessage());
+        Throwable throwable = new Throwable("有异常"); //传递的参数
+        //返回异常详细的字符串
+        System.out.println(throwable.getMessage()); //获取传递的参数
+        //简短描述
         System.out.println(throwable.toString());
 //        throwable.printStackTrace();
 
