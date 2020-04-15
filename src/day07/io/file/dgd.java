@@ -1,4 +1,4 @@
-package day07.io;
+package day07.io.file;
 
 import java.io.File;
 

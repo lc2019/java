@@ -19,7 +19,7 @@ public class test {
         map.put(st3, "西安");
         map.put(st4, "武汉");
 
-        //遍历    
+        //遍历
         for (student2 s :
                 map.keySet()) {
             System.out.println(s.getName() + s.getAge() + map.get(s));

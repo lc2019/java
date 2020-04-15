@@ -1,4 +1,4 @@
-package day07.io;
+package day07.io.file;
 
 public class dg {
     public static void main(String[] args) {

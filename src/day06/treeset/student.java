@@ -1,9 +1,5 @@
 package day06.treeset;
 
-import org.jetbrains.annotations.NotNull;
-
-import java.util.Objects;
-
 /**
  * Comparable 自然排序 实现接口类
  * 排序并且唯一性

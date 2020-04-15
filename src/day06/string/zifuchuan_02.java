@@ -1,6 +1,4 @@
-package day06;
-
-import java.util.Arrays;
+package day06.string;
 
 public class zifuchuan_02 {
     public static void main(String[] args) {
