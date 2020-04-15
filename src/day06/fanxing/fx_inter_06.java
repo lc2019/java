@@ -1,4 +1,4 @@
-package day06;
+package day06.fanxing;
 
 //   泛型在接口的使用
 interface A<T> {

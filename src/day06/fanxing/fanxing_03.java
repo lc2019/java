@@ -1,4 +1,4 @@
-package day06;
+package day06.fanxing;
 
 import java.util.ArrayList;
 
