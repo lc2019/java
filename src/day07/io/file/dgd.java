@@ -23,6 +23,7 @@ public class dgd {
                     getFiles(f);
                 } else {
                     //不是目录的话输出绝对路径
+
                     System.out.println(f.getAbsolutePath());
                 }
             }

@@ -1,4 +1,4 @@
-package day07.write;
+package day07.fileiostream.write;
 /**
  * 异常处理以及finally
  */

@@ -1,4 +1,4 @@
-package day07.write;
+package day07.fileiostream.write;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package day07.read;
+package day07.fileiostream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
