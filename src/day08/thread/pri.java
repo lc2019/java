@@ -1,10 +1,10 @@
-package day08;
+package day08.thread;
 
 public class pri {
     public static void main(String[] args) {
-        thread th1 = new thread();
-        thread th2 = new thread();
-        thread th3 = new thread();
+        thread01 th1 = new thread01();
+        thread01 th2 = new thread01();
+        thread01 th3 = new thread01();
 
         th1.getPriority();//默认是5
 

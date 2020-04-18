@@ -1,6 +1,6 @@
-package day08;
+package day08.thread;
 
-public class thread extends Thread {
+public class thread01 extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {

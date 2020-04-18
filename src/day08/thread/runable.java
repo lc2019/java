@@ -1,4 +1,4 @@
-package day08;
+package day08.thread;
 
 public class runable implements Runnable {
     @Override
