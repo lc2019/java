@@ -1,0 +1,2 @@
+className=day11.meth.student
+methodName=study
