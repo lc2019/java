@@ -1,7 +1,7 @@
 package day13.接口;
 
 /**
- * 接口实现,必须全部实现
+ * 接口实现,必须全部实现抽象方法
  * 实现类
  */
 public class InterImplements implements I1, I2 {
