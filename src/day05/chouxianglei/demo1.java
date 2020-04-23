@@ -1,6 +1,6 @@
 package day05.chouxianglei;
 
-//抽象类
+//day13.抽象类
 public abstract class demo1 {
     //抽象方法
     public abstract void eat();
