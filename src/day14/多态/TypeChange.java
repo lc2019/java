@@ -1,30 +1,30 @@
 package day14.多态;
 
-/**
- * 多态的表现形式
- * 父类类型 对象名称=  new 子类构造器
- * 接口 对象名称 = new
- * <p>
- * 编译看左边 执行看右边
- * <p>
- * 变量的调用 编译看左边 运行看左边
- */
-public class PolymorphicDemo1 {
+public class TypeChange {
     public static void main(String[] args) {
-        /**
-         * 多态
-         */
-        Animal a = new Cat();
+        Animals a = new Dog1();
         a.run();
 
-        Dog d1 = new Dog();
-        d1.run();
-        System.out.println(d1.name);
-    }
+        //动物变量转为dog1类型
+        Dog1 d = (Dog1) a;
 
+        /**
+         * 真实类型判断
+         * 变量 instanof 类型
+         */
+        Animals c = new Cat1();
+
+        if (c instanceof Cat1) {
+            Cat1 c1 = (Cat1) c;
+            c1.run();
+        } else if (c instanceof Dog1) {
+            Dog1 d1 = (Dog1) d;
+            d1.run();
+        }
+    }
 }
 
-class Animal {
+class Animals {
     private String name;
 
     {
@@ -44,7 +44,7 @@ class Animal {
     }
 }
 
-class Dog extends Animal {
+class Dog1 extends Animals {
     public String name = "al";
 
     @Override
@@ -53,7 +53,7 @@ class Dog extends Animal {
     }
 }
 
-class Cat extends Animal {
+class Cat1 extends Animals {
     @Override
     public void run() {
         System.out.println("走猫步");
