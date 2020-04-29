@@ -1,0 +1,35 @@
+package 线程.原子性;
+
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+
+public class bf1 {
+    //线程不安全
+//    public  static Map<String,String> maps = new HashMap<String,String>();
+    //线程安全
+    public  static Map<String,String> maps = new Hashtable<>();
+    public static void main(String[] args) throws InterruptedException {
+        Runnable myrun = new myrun();
+        Thread th1 = new Thread(myrun, "-1");
+        Thread th2 = new Thread(myrun, "-2");
+
+        th1.start();
+        th2.start();
+
+        //跑完
+        th1.join();
+        th2.join();
+
+        System.out.println("元素："+maps.size());
+    }
+}
+
+class  myrun implements Runnable{
+    @Override
+    public void run() {
+        for (int i = 1; i <= 500000; i++) {
+            bf1.maps.put(Thread.currentThread().getName()+i,Thread.currentThread().getName()+i);
+        }
+    }
+}
