@@ -1,4 +1,6 @@
 package 线程.原子性;
+https://github.com/Snailclimb/JavaGuide
+http://hollischuang.gitee.io/tobetopjavaer/#/menu
 
 import java.util.concurrent.atomic.AtomicInteger;
 
