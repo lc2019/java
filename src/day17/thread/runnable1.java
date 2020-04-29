@@ -1,6 +1,6 @@
 package day17.thread;
 
-public class runnable {
+public class runnable1 {
     public static void main(String[] args) {
         //多态实现类，线程任务对象不是线程对象
         Runnable run1 = new testrunnale();

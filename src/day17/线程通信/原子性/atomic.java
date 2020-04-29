@@ -16,7 +16,7 @@ public class atomic {
 }
 
 class myrunnable implements Runnable {
-    private int count;
+    private volatile int count;
 
     @Override
     public void run() {
