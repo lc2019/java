@@ -15,11 +15,11 @@ public class test {
             }
         });
 
-        //抽象类
+        //day13.抽象类
         useanimal(new animal() {
             @Override
             public void method() {
-                System.out.println("抽象类");
+                System.out.println("day13/抽象类");
             }
         });
 

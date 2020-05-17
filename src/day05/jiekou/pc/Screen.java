@@ -1,4 +1,4 @@
-package day05.jiekou;
+package day05.jiekou.pc;
 
 public class Screen {
     //成员变量

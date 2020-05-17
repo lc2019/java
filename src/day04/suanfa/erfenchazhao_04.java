@@ -48,9 +48,10 @@ public class erfenchazhao_04 {
         while (minIndex <= maxIndex) {
             //查询中间数据小于给定的值
             if (arr[midIndex] < find) {
-                //修改最小值
+                //最小下标
                 minIndex = midIndex + 1;
             } else if (arr[midIndex] > find) {
+                //最大下标
                 maxIndex = midIndex - 1;
             } else {
                 //否则返回mid

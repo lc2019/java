@@ -1,4 +1,4 @@
-package day05.jiekou;
+package day05.jiekou.pc;
 
 class Car {
     private String name;

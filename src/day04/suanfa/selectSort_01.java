@@ -19,7 +19,9 @@ public class selectSort_01 {
             int index = i;
             //与后一位进行比较
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[index] > arr[j]) index = j;
+                if (arr[index] > arr[j]) {
+                    index = j;
+                }
             }
             //值交换
             if (index != i) {
