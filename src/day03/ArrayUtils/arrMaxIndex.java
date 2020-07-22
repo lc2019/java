@@ -1,4 +1,4 @@
-package day03.arr;
+package day03.ArrayUtils;
 
 /**
  * 数组最大值的下标
