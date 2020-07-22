@@ -14,7 +14,11 @@ public class gouzao {
         System.out.println("abc".contains("a"));
         //replace
         System.out.println("abcd".replace("abc", "bc"));
-        //valueOf//endsWith
+        //valueOf
+
+        // endsWith
         System.out.println("abc".endsWith("d"));
+
+        
     }
 }
