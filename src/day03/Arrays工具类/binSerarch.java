@@ -2,7 +2,7 @@ package day03.Arrays工具类;
 
 import java.util.Arrays;
 
-public class tostring {
+public class binSerarch {
     public static void main(String[] args) {
         int[] arr = {1, 12, 23, 15, 6, 9, 3, 4, 2};
         System.out.println(Arrays.toString(arr));
