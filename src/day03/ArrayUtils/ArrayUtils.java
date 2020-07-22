@@ -1,4 +1,4 @@
-package day03.arr;
+package day03.ArrayUtils;
 
 public class ArrayUtils {
     public static void main(String[] args) {

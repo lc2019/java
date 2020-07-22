@@ -69,8 +69,12 @@ public class stu {
 //            return false;
 //        }
 
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         stu stu = (stu) o;
         return age == stu.age &&
                 sex == stu.sex &&

@@ -25,10 +25,6 @@ public class equals {
                     System.out.println("登陆失败还有"+(2-i)+"次机会");
                 }
             }
-
-
-
-
         }
     }
 }
