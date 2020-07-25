@@ -19,11 +19,14 @@ public class bzdemo {
         String s1 = "" + num;
         System.out.println(num);
 
-        //方式2
+        //string --int
+        System.out.println(Integer.parseInt("200"));
+
+        //interger --string
         String s2 = String.valueOf(num);
         System.out.println(s2);
 
-        //string --int
+        //string --intger
         int i4 = Integer.parseInt(s1);
         System.out.println(i4);
     }

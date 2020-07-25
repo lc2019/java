@@ -26,6 +26,7 @@ public class EnumDemo1 {
                 break;
             case BOY:
                 System.out.println("nanhai");
+                break;
         }
     }
 }
