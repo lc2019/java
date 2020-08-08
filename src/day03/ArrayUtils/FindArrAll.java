@@ -1,4 +1,4 @@
-package day03.arr;
+package day03.ArrayUtils;
 
 /**
  * 找出数组所有的元素

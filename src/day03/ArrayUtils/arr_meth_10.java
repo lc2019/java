@@ -1,4 +1,4 @@
-package day03.arr;
+package day03.ArrayUtils;
 
 import java.util.Arrays;
 
@@ -100,12 +100,15 @@ public class arr_meth_10 {
             return false;
         }
         for (int i = 0; i < arr.length - 1; i++) {
+            //极值的开始，从0开始
             int index = i;
+            //排序比较
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[index] > arr[j]) {
                     index = j;
                 }
             }
+            //值交换
             if (index != i) {
                 int tmp = arr[index];
                 arr[index] = arr[i];

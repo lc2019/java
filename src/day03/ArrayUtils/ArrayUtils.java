@@ -1,4 +1,4 @@
-package day03.arr;
+package day03.ArrayUtils;
 
 public class ArrayUtils {
     public static void main(String[] args) {
@@ -25,6 +25,7 @@ public class ArrayUtils {
     public int getMin(int[] arr) {
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
+            //最小值大则值交换，min一直在换比他小的，直到最小值
             if (min > arr[i]) {
                 min = arr[i];
             }

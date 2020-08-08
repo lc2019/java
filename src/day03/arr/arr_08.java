@@ -1,6 +1,5 @@
 package day03.arr;
 
-import java.util.Arrays;
 
 public class arr_08 {
     public static void main(String[] args) {
