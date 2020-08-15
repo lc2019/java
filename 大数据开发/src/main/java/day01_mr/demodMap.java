@@ -1,17 +1,16 @@
 package day01_mr;
 
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-import org.junit.Test;
 
 import java.io.IOException;
 
 /**
  * map阶段-字符串转为string，按行切割，计数
  * 继承map类
+ * LongWritable 记录文件读取位置
  * 输入数据kv
  * 输出数据kv
  * maptask对每个map调用1次

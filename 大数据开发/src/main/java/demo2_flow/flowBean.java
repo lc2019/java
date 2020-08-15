@@ -12,7 +12,7 @@ public class flowBean  implements Writable {
     private  Long sumFlow;
 
 
-    //空的构造，为后续反射使用
+    //空的构造，为后续反射使用，重新构造对象反序列化的时候使用
     public flowBean() {
         super();
     }
@@ -21,7 +21,7 @@ public class flowBean  implements Writable {
         super();
         this.upFlow = upFlow;
         this.downFlow = downFlow;
-        sumFlow = upFlow+downFlow;
+        this.sumFlow = upFlow+downFlow;
     }
 
     //序列化方法
@@ -42,9 +42,7 @@ public class flowBean  implements Writable {
 
     @Override
     public String toString() {
-        return upFlow +
-                "\t" + downFlow +
-                "\t" + sumFlow
+        return upFlow + "\t" + downFlow + "\t" + sumFlow
                 ;
     }
 
