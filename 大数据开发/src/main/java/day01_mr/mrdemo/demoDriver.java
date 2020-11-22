@@ -1,4 +1,4 @@
-package day01_mr;
+package day01_mr.mrdemo;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -40,8 +40,8 @@ public class demoDriver {
         job.setOutputValueClass(IntWritable.class);
 
         //6.设置输入路径和输出路径
-        FileInputFormat.setInputPaths(job,new Path("/Users/mac/hello.txt"));
-        FileOutputFormat.setOutputPath(job,new Path("/Users/mac/mroutpu"));
+        FileInputFormat.setInputPaths(job, new Path("/Users/mac/hello.txt"));
+        FileOutputFormat.setOutputPath(job, new Path("/Users/mac/mroutput5"));
 
         //7.提交job
         job.waitForCompletion(true);
